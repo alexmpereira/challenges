@@ -117,7 +117,7 @@ ol li
 
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #0006c9;
   text-decoration: none;}
 
 #logo h1 a .logo_colour
@@ -165,7 +165,16 @@ ul#menu li a:hover
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
   background: #F6F6F0 url(back.png) repeat-y;
-  border: 15px solid #FFF;} 
+  border: 15px solid #FFF;
+} 
+
+#site_content_niveis
+{ width: 858px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 10px 20px 20px 20px;
+  border: 15px solid #FFF;
+}
 
 .sidebar
 { float: right;
