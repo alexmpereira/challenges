@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Desafios - Prática de programação</title>
+  <meta name="description" content="Lista de exercícios práticos" />
+  <meta name="keywords" content="website keywords, website keywords, challenges, programming" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div id="main">
+
+    <div id="header">
+
+        <div id="logo">
+            <h1><a href="index.html">Desafios<span class="logo_colour"> de programação</span></a></h1>
+            <h2>Exercícios baseados em problemas reais para práticar código</h2>
+        </div>
+
+        <div id="menubar">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nivel_01.html">Nível 01</a></li>
+                <li><a href="nivel_02.html">Nível 02</a></li>
+                <li><a href="nivel_03.html">Nível 03</a></li>
+                <li class="selected"><a href="nivel_04.html">Nível 04</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="site_content_niveis">
+        <h1>Explorando Fronteiras: Desafio Nível 04 com Consumo de APIs, Arquiteturas de Software e Boas Práticas de Código</h1>
+
+        <p>
+            Uma jornada empolgante rumo à maestria no mundo do desenvolvimento de software. Neste nível avançado, não apenas expandiremos suas habilidades técnicas, mas também mergulharemos fundo nos aspectos vitais do desenvolvimento de software. Você aprenderá a integrar APIs de terceiros, desvendando os segredos das interações entre sistemas e transformando dados em experiências significativas. Além disso, exploraremos arquiteturas de software, guiando-o através dos intricados caminhos de estruturas que tornam os sistemas escaláveis, seguros e eficientes. Este nível também é dedicado a aprimorar suas habilidades com as melhores práticas de código, desde a legibilidade até a manutenibilidade, permitindo que você escreva software não apenas funcional, mas também elegante.
+        </p>
+
+        <hr>
+
+        <div class="title_exercice">
+            <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="">
+            <h3>Lista de exercícios Nível 04</h3>
+        </div>
+
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 01</summary>
+            <p>Criar no Laravel um projeto de encurtador de links</p>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 02</summary>
+            <p>O Objetivo é desenvolver uma api que recebe 2 pokemons e que eles possam batalhar e mostrar o resultado de quem venceu, abaixod orientacoes importantes para este exercicio:</p>
+
+            <ul>
+                <li>Esse projeto deverá ser uma API</li>
+                <li>No arquivo api.php criar uma rota que recebe na url os dois pokemons, por ex.: /battle/{poke1}/{poke2}</li>
+                <li>Essa rota deve enviar a request para a controller BattleController, no método show.</li>
+                <li>Dentro do método show, deverá consumir a API https://pokeapi.co/api/v2/pokemon/ (GET) passando o nome de cada pokemon.</li>
+                <li>Essa pokeapi retorna informacoes do pokemon.</li>
+                <li>Após obter a resposta contendo os dados do pokemon, considere usar o campo **base_stat** como valor de atack que o pokemon tem.</li>
+                <li>Após obter o valor de atack dos 2 pokemons, crie uma lógica que compare qual é o pokemon que tem maior valor de atack e retorne o vencedor.</li>
+                <li>[feature] Após finalizar, adicionar também para gravar um log das batalhas em um arquivo.</li>
+            </ul>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 03</summary>
+            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel04-ex3</p>
+
+            <ul>
+                <li>Realize o Clone do repositório</li>
+                <li>Abra o repositório clonado no VsCode</li>
+                <li>Desenvolva uma API que consuma a seguinte API: https://api.punkapi.com/v2/beers</li>
+                <li>Ao obter o retorno dos dados, salve em um arquivo csv (Excel).</li>
+                <li>Após realizar a gravacao, retorno a resposta em formato JSON informando que os dados foram gravados com sucesso.</li>
+                <li>Desenvolva uma API que realize o Download do arquivo Excel.
+                    <ul>
+                        <li>O endpoint vai buscar o arquivo excel gravado e retornar a opcao de download para salvarmos em algum diretório fora do projeto.</li>
+                        <li>Realize o commit e push para o repositório. Para responder este exercicio coloque o link do seu repositório em um arquivo .md enviando na sessao de respostas.</li>
+                    </ul>
+                </li>
+            </ul>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 04</summary>
+            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel04-ex4</p>
+
+            <ul>
+                <li>Realize o Clone do repositório</li>
+                <li>Abra o repositório clonado no VsCode</li>
+                <li>Instale no projeto usando o composer a seguinte lib: <strong>composer require openai-php/laravel</strong>
+                    <ul>
+                        <li>OBS: Repositório da lib: https://github.com/openai-php/laravel</li>
+                    </ul>
+                </li>
+                <li>É necessário criar uma conta na plataforma openIA, para obter as credenciais: https://platform.openai.com/</li>
+                <li>Desenvolver uma API com o endpoint <strong>/chat</strong></li>
+                <li>Enviar para a openIA através da lib que foi instalada o prompt passando alguma mensagem do que você quer</li>
+                <li>Ao obter a reposta, guarde em um arquivo de LOG.</li>
+            </ul>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 05</summary>
+            <p>Clonar o repositório a seguir e resolver os bugs <a href="https://github.com/alexmpereira/php-xdebug" target="_blank">Clique aqui</a></p>
+            <p>OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.</p>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 06</summary>
+            <p>Clonar o repositório a seguir realizar a refatoração de boas práticas <a href="https://github.com/alexmpereira/good-coding-practices" target="_blank">Clique aqui</a></p>
+            <p>OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.</p>
+        </details>
+        <br>
+
+        <details class="alert">
+            <summary>Exercício 07</summary>
+            <p>Referente a <strong>DDD</strong>, seguir o passo a passo abaixo para a conclusão do desafio:</p>
+            
+            <ul>
+                <li>Criar um repositório no <strong>GitHub</strong> chamado <strong>desafio07_nivel04</strong></li>
+                <li>Clonar localmente o repositório
+                    - OBS: Para cada task concluida, faça o commit. </li>
+                <li>Criar o <strong>composer.json</strong> inicial e configurar o <strong>autoload</strong> da <strong>psr-4</strong> defindo um namespace padrão para a src.</li>
+                <li>Criar na raiz do projeto o<strong>index.php</strong> para testar as classes. Além disso, carregue o auload para facilitar os imports das classes da src.</li>
+                <li>Criar a pasta <strong>src</strong> onde ficará os <strong>modulos</strong> e a camada de <strong>dominio</strong> para cada módulo. Por Exemplo: <strong>Financeiro/Domain/Entity</strong></li>
+                <li>Na src, desenvolver o módulo que vai representar a parte <strong>Academica</strong>. Como requisito para esse exercicio deve conter a classe <strong>Aluno</strong> como entidade de dominio.
+                    <ul>
+                        <li>Coloque as seguintes propriedades: <strong>nome, idade, cpf</strong></li>
+                        <li>Adicione as seguintes regras: <strong>O nome pode conter no minimo 5 caracteres, idade acima de 18 e cpf com 11 digitos.</strong></li>
+                    </ul>
+                </li>
+                <li>Na src, desenvolver o módulo que vai representar a <strong>Contabilidade</strong>. Como requisito para esse exericicio deve conter a classe <strong>Cliente</strong> como entidade de dominio.
+                    <ul>
+                        <li><strong>OBS: Para o pessoal de contabilidade, o Aluno é um Cliente.</strong></li>
+                        <li>Coloque as seguintes propriedades iniciais: <strong>nome, idade, cpf, boletosEmAtraso, boletos</strong></li>
+                        <li>Adicione as seguintes regras dentro do dominio: <strong>O nome pode conter no minimo 5 caracteres, idade acima de 18 e cpf com 11 digitos, buscar todos os boletos em atraso, na propriedade boletos trazer todos os boletos.</strong></li>
+                    </ul>
+                </li>
+                <li>Na src, desenvolver o módulo que vai representar a parte <strong>Financeira</strong>. Como requisito para esse exericicio deve conter a classe <strong>Cliente</strong> como entidade de dominio.
+                    <ul>
+                        <li>Implemente nessa entidade os seguintes atributos: <strong>nome, idade, cpf, datamatricula</strong></li>
+                        <li>Adicione as seguintes regras dentro do dominio: <strong>O nome pode conter no minimo 5 caracteres, idade acima de 18 e cpf com 11 digitos, datamatricula não pode ser vazio</strong></li>
+                    </ul>
+                </li>
+                <li>Nosso sistema evoluiu conforme o tempo e agora foi solicitado pelo negocio adicionar uma nova <strong>feature</strong>. Quando o cliente completar 2 anos de matricula, adicionar para esse cliente <strong>10% de desconto</strong> nos boletos. Como sugestão, pode conter na classe um método que dispara para gerar o boleto, recebendo o cpf, valor. Antes de disparar para gerar o boleto devem chamar um método que será capaz de verificar a matricula e caso tenha mais que 2 anos adicione o desconto no valor, em seguida envie o novo valor na funcionalidade de gerar o boleto.</li>
+                <li>Faça o commit de cada tarefa e como resposta, em um markdown coloque o repositório.</li>
+            </ul>
+        </details>
+        <br>
+    </div>
+
+    <div id="footer">
+      <p>Copyright &copy; insta: @dev_alexpereira</p>
+    </div>
+  </div>
+</body>
+</html>
