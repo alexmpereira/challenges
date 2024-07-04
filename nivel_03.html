@@ -22,77 +22,137 @@
         <div id="menubar">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="nivel_01.html">Nível 01</a></li>
-                <li><a href="nivel_02.html">Nível 02</a></li>
-                <li class="selected"><a href="nivel_03.html">Nível 03</a></li>
-                <li><a href="nivel_04.html">Nível 04</a></li>
+                <li class="nivel01"><a href="nivel_01.html">HTML, CSS e Javascript</a></li>
+                <li class="nivel02"><a href="nivel_02.html">Servidores, PHP, Banco de Dados</a></li>
+                <li class="nivel03 selected"><a href="nivel_03.html">OOP, Docker</a></li>
+                <li class="nivel04"><a href="nivel_04.html">Frameworks, Clean code</a></li>
             </ul>
         </div>
 
     </div>
 
     <div id="site_content_niveis">
-        <h1>Construindo em Camadas: Desafio Nível 03 com Programação Orientada a Objetos (OOP) e Docker</h1>
+        <h1>Construindo em Camadas: Desafio de Programação Orientada a Objetos (OOP) e Docker</h1>
 
         <p>
-            Bem-vindo ao Nível 03, onde mergulhamos no mundo sofisticado da Programação Orientada a Objetos (OOP) e das poderosas tecnologias de contêiner com Docker. Este nível é uma jornada emocionante e desafiadora para os desenvolvedores que desejam elevar suas habilidades para o próximo nível. Você aprenderá a conceber e implementar sistemas complexos com a OOP, criando código modular, reutilizável e facilmente mantido. Além disso, mergulharemos nas maravilhas do Docker, onde você ganhará habilidades essenciais para empacotar suas aplicações em ambientes isolados, tornando o processo de desenvolvimento, distribuição e implantação mais eficiente do que nunca. Este desafio não apenas expandirá seu conhecimento técnico, mas também abrirá portas para uma abordagem mais avançada e profissional no desenvolvimento de software.
+            Mergulhamos no mundo sofisticado da Programação Orientada a Objetos (OOP) e das poderosas tecnologias de
+            contêiner com Docker. Estes desafios é uma jornada emocionante e
+            desafiadora para os desenvolvedores que desejam elevar suas habilidades
+            para o próximo nível. Você aprenderá a conceber e implementar sistemas
+            complexos com a OOP, criando código modular, reutilizável e facilmente mantido.
+            Além disso, mergulharemos nas maravilhas do Docker, onde você ganhará
+            habilidades essenciais para empacotar suas aplicações em ambientes isolados,
+            tornando o processo de desenvolvimento, distribuição e implantação mais
+            eficiente do que nunca. Estes desafios não apenas expandirá seu conhecimento
+            técnico, mas também abrirá portas para uma abordagem mais avançada
+            e profissional no desenvolvimento de software.
         </p>
 
         <hr>
 
         <div class="title_exercice">
             <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="">
-            <h3>Lista de exercícios Nível 03</h3>
+            <h3>Lista de exercícios</h3>
         </div>
 
         <br>
 
         <details class="alert">
             <summary>Exercício 01</summary>
+            <div class="referencia">
+                <p>Antes de iniciar o desafio, leia a referência, para saber mais informações:</p>
+                <ol>
+                    <li>
+                        <a href="https://www.w3schools.com/php/php_oop_classes_objects.asp" target="_blank">Classes e Objetos no PHP</a>
+                    </li>
+                </ol>
+            </div>
+            <hr>
             <p>Crie uma classe PHP de Produto, adicione dentro dessa classe as seguintes propriedades: nome, descricao, preco. Crie 2 objetos instanciando a classe Produto e imprima o nome dos dois objetos.</p>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 02</summary>
-            <p>Pegue como continuacao a classe do exercicio 01 desse nível, adicione um construtor para a classe Produto. Esse construtor deve receber os valores nome, descricao e preco no momento que for instanciar para um novo objeto. Além disso, ajuste as propriedades para que elas nao fiquem publicas, devem ficar como privadas.</p>
+            <div class="referencia">
+                <p>Antes de iniciar o desafio, leia a referência, para saber mais informações:</p>
+                <ol>
+                    <li>
+                        <a href="https://www.w3schools.com/php/php_oop_constructor.asp" target="_blank">constructor no PHP</a>
+                    </li>
+                </ol>
+            </div>
+            <hr>
+            <p>Pegue como continuacao a classe do exercicio 01,
+                adicione um construtor para a classe Produto. Esse construtor
+                deve receber os valores nome, descricao e preco no momento que
+                instanciar para um novo objeto. Além disso, ajuste as propriedades
+                para que elas não fiquem publicas, devem ficar como privadas.</p>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 03</summary>
-            <p>Pegue como continuacao a classe do exercicio 02 desse nível, crie os métodos Getters e Setters das propriedades nome, descricao e preco. No setter do nome certifique-se que sempre a primeira letra seja maiúscula.</p>
+            <p>Pegue como continuacao a classe do exercicio 02, crie os métodos
+                Getters e Setters das propriedades nome, descricao e preco.
+                No setter do nome certifique-se que sempre a primeira letra
+                seja maiúscula.</p>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 04</summary>
-            <p>Em dupla crie um github adicionando o seu parceiro como membro. Os dois em suas máquinas devem clonar o repositório, realizar modificações e subir no repositório essas modificações. Os dois devem dar git pull dessas modificações para terem os mesmos códigos em suas máquinas.</p>
+            <p>Em dupla crie um github adicionando o seu parceiro como membro.
+                Os dois em suas máquinas devem clonar o repositório,
+                realizar modificações e subir no repositório essas modificações.
+                Os dois devem dar git pull dessas modificações para terem os mesmos
+                códigos em suas máquinas.</p>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 05</summary>
-            <p>Para que serve os comandos: <strong>docker images, docker ps -a, docker run ..., docker exec ...</strong>
-                Escreva em um arquivo .md e envie como resposta.</p>
+            <p>
+                Para que serve os comandos: docker images, docker ps -a, docker
+                run ..., docker exec ...
+                Escreva em um arquivo .md e envie como resposta.
+            </p>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 06</summary>
-            <p>Realizar o exercicio do site oficial do docker para criar um ambiente de container de uma aplicação: <a href="https://docs.docker.com/get-started/02_our_app/" target="_blank">Clicando aqui</a></p>
+            <p>
+                Realizar o exercicio do site oficial do docker para criar um ambiente
+                de container de uma aplicação:
+            </p>
+            <a href="https://docs.docker.com/get-started/02_our_app/" target="_blank">
+                Clicando aqui
+            </a>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 07</summary>
-            <p>Faça o próximo exercicio do site oficial do docker para quando ocorrer alterações no código da aplicação, atualizar o container: <a href="https://docs.docker.com/get-started/03_updating_app/" target="_blank">Clicando aqui</a></p>
+            <p>
+                Faça o próximo exercicio do site oficial do docker para quando
+                ocorrer alterações no código da aplicação, atualizar o container:
+            </p>
+            <a href="https://docs.docker.com/get-started/03_updating_app/" target="_blank">
+                Clicando aqui
+            </a>
         </details>
         <br>
 
         <details class="alert">
             <summary>Exercício 08</summary>
-            <p>Faça o exercicio do site oficial do docker para subir no Docker Hub a imagem criada: <a href="https://docs.docker.com/get-started/04_sharing_app/" target="_blank">Clicando aqui</a></p>
+            <p>
+                Faça o exercicio do site oficial do docker para subir no Docker Hub
+                a imagem criada:
+            </p>
+            <a href="https://docs.docker.com/get-started/04_sharing_app/" target="_blank">
+                Clicando aqui
+            </a>
         </details>
         <br>
 

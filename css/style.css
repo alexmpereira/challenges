@@ -1,14 +1,14 @@
 :root {
     --color-bg: #EEEDEB;
     --color-title: #0E1C4E;
-    
+
     --color-summary-1: #FFF6EE;
     --color-summary-1-highlight: #FFC48B;
     --color-summary-2: #FAFAFF;
     --color-summary-2-highlight: #B4B3FF;
     --color-summary-3: #FFF0F3;
     --color-summary-3-highlight: #FFB3C0;
-    
+
     --font-ibm-plex-sans: 'IBM Plex Sans', sans-serif;
   }
 
@@ -33,12 +33,12 @@ p
 }
 
 img
-{ 
+{
     border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 
-{ 
+h1, h2, h3, h4, h5, h6
+{
     font: normal 165% 'century gothic', arial, sans-serif;
     color: #2DB8CD;
     margin: 0 0 14px 0;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 h2
-{ 
+{
     font: normal 165% 'century gothic', arial, sans-serif;
     color: #B60000;
 }
@@ -81,7 +81,7 @@ a:hover
   margin-right: 10px;}
 
 .right
-{ float: right; 
+{ float: right;
   width: auto;
   margin-left: 10px;}
 
@@ -91,7 +91,7 @@ a:hover
   margin: 20px auto;}
 
 blockquote
-{ margin: 20px 0; 
+{ margin: 20px 0;
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
   background: #FFF;}
@@ -101,7 +101,7 @@ ul
 
 ul li
 { list-style-type: circle;
-  margin: 0 0 6px 0; 
+  margin: 0 0 6px 0;
   padding: 0 0 4px 5px;}
 
 ol
@@ -111,7 +111,7 @@ ol li
 { margin: 0 0 11px 0;}
 
 #main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto; 
+{ margin-left: auto;
   margin-right: auto;}
 
 #main
@@ -139,7 +139,7 @@ ol li
   padding: 4px 0 0 0;
   color: #A8AA94;}
 
-#logo h1, #logo h1 a, #logo h1 a:hover 
+#logo h1, #logo h1 a, #logo h1 a:hover
 { padding: 22px 0 0 0;
   color: #0006c9;
   text-decoration: none;}
@@ -152,12 +152,32 @@ ol li
 
 #menubar
 { height: 24px;
-  width: 900px;} 
+  width: 900px;}
 
 ul#menu
 { float: right;
   margin: 0;
   padding: 0;}
+
+ul#menu .nivel01 a {
+    background: #e6ad1d;
+    color: white;
+}
+
+ul#menu .nivel02 a{
+    background: #0006c9;
+    color: white;
+}
+
+ul#menu .nivel03 a{
+    background: black;
+    color: white;
+}
+
+ul#menu .nivel04 a{
+    background: orange;
+    color: white;
+}
 
 ul#menu li
 { float: left;
@@ -167,14 +187,14 @@ ul#menu li
 
 ul#menu li a
 { font: normal 100% 'trebuchet ms', sans-serif;
-  display: block; 
-  float: left; 
+  display: block;
+  float: left;
   height: 20px;
   padding: 6px 20px 5px 20px;
   text-align: center;
   color: #000;
   text-decoration: none;
-  background: #E0E0E0;} 
+  background: #E0E0E0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
 { background: #FFF;
@@ -190,7 +210,7 @@ ul#menu li a:hover
   padding: 10px 20px 20px 20px;
   background: #F6F6F0 url(back.png) repeat-y;
   border: 15px solid #FFF;
-} 
+}
 
 #site_content_niveis
 { width: 858px;
@@ -206,22 +226,22 @@ ul#menu li a:hover
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 178px; 
-  padding: 4px 0 0 0; 
+{ width: 178px;
+  padding: 4px 0 0 0;
   margin: 4px 0 30px 0;}
 
 .sidebar li
-{ list-style: none; 
+{ list-style: none;
   padding: 0 0 7px 0; }
 
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 25px;
   display: block;
-  background: transparent url(link.png) no-repeat left center;} 
+  background: transparent url(link.png) no-repeat left center;}
 
 .sidebar li a.selected
 { color: #444;
-  text-decoration: none;} 
+  text-decoration: none;}
 
 #content
 { text-align: left;
@@ -234,7 +254,7 @@ ul#menu li a:hover
   font-size: 90%;
   height: 28px;
   padding: 20px 0 5px 0;
-  text-align: center; 
+  text-align: center;
   background: transparent;
   color: #111;
   text-transform: uppercase;
@@ -250,13 +270,13 @@ ul#menu li a:hover
 #footer p
 { line-height: 22px;
   padding: 0;}
-  
+
 .search
-{ color: #555; 
-  border: 1px solid #DDD; 
+{ color: #555;
+  border: 1px solid #DDD;
   width: 134px;
   padding: 5px;}
-  
+
 .form_settings
 { margin: 15px 0 0 0;}
 
@@ -264,39 +284,39 @@ ul#menu li a:hover
 { padding: 0 0 4px 0;}
 
 .form_settings span
-{ float: left; 
-  width: 200px; 
+{ float: left;
+  width: 200px;
   text-align: left;}
-  
+
 .form_settings input, .form_settings textarea
-{ padding: 5px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
+{ padding: 5px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
   color: #47433F;}
-  
+
 .form_settings .submit
-{ font: 100% arial; 
-  border: 0; 
-  width: 99px; 
-  margin: 0 0 0 212px; 
+{ font: 100% arial;
+  border: 0;
+  width: 99px;
+  margin: 0 0 0 212px;
   height: 33px;
   padding: 2px 0 3px 0;
-  cursor: pointer; 
-  background: #3B3B3B; 
+  cursor: pointer;
+  background: #3B3B3B;
   color: #FFF;}
 
 .form_settings textarea, .form_settings select
-{ font: 100% arial; 
+{ font: 100% arial;
   width: 299px;}
 
 .form_settings select
 { width: 310px;}
 
 .form_settings .checkbox
-{ margin: 4px 0; 
-  padding: 0; 
+{ margin: 4px 0;
+  padding: 0;
   width: 14px;
   border: 0;
   background: none;}
@@ -307,7 +327,7 @@ ul#menu li a:hover
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
-  
+
 table
 { margin: 10px 0 30px 0;}
 
@@ -316,7 +336,7 @@ table tr th, table tr td
   color: #FFF;
   padding: 7px 4px;
   text-align: left;}
-  
+
 table tr td
 { background: #E5E5DB;
   color: #47433F;
@@ -422,9 +442,17 @@ details[open] summary::before {
     text-align: center;
     text-decoration: none;
   }
-  
+
   .right-icon-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     color: #FFF;
+  }
+
+  .referencia p {
+    padding-bottom: 5px;
+    color: #2DB8CD;
+  }
+  .referencia ol {
+    margin-left: 5rem;
   }

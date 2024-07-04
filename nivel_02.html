@@ -22,27 +22,34 @@
         <div id="menubar">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="nivel_01.html">Nível 01</a></li>
-                <li class="selected"><a href="nivel_02.html">Nível 02</a></li>
-                <li><a href="nivel_03.html">Nível 03</a></li>
-                <li><a href="nivel_04.html">Nível 04</a></li>
+                <li class="nivel01"><a href="nivel_01.html">HTML, CSS e Javascript</a></li>
+                <li class="nivel02 selected"><a href="nivel_02.html">Servidores, PHP, Banco de Dados</a></li>
+                <li class="nivel03"><a href="nivel_03.html">OOP, Docker</a></li>
+                <li class="nivel04"><a href="nivel_04.html">Frameworks, Clean code</a></li>
             </ul>
         </div>
 
     </div>
 
     <div id="site_content_niveis">
-        <h1>Domine o Dinamismo Web: Desafio Nível 02 com PHP, Configuração de Servidor e Conexão com Bancos de Dados</h1>
+        <h1>Domine o Dinamismo Web: Desafio com PHP, Configuração de Servidor e Conexão com Bancos de Dados</h1>
 
         <p>
-            Sua jornada na programação web atinge um novo patamar de dinamismo e interatividade. Neste nível avançado, mergulharemos profundamente no universo do PHP, explorando suas funcionalidades poderosas para desenvolver aplicações web dinâmicas e robustas. Além disso, aprenderemos a configurar um servidor web, entendendo os segredos por trás das hospedagens bem-sucedidas, e a estabelecer conexões seguras e eficientes com bancos de dados, a espinha dorsal de qualquer aplicação dinâmica. Prepare-se para dominar não apenas a linguagem PHP, mas também os meandros da infraestrutura web, capacitando-se para criar websites e aplicações que não apenas funcionam, mas brilham com funcionalidades avançadas e interatividade sem limites.
+            Neste nível, mergulharemos profundamente no universo do PHP, explorando
+             suas funcionalidades poderosas para desenvolver aplicações web
+             dinâmicas e robustas. Além disso, aprenderemos a configurar um servidor
+             web, entendendo os segredos por trás das hospedagens bem-sucedidas,
+             e a estabelecer conexões seguras e eficientes com bancos de dados, a
+             espinha dorsal de qualquer aplicação dinâmica. Prepare-se para dominar
+             não apenas a linguagem PHP, mas também a infraestrutura web,
+             capacitando-se para criar websites e aplicações.
         </p>
 
         <hr>
 
         <div class="title_exercice">
             <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="">
-            <h3>Lista de exercícios Nível 02</h3>
+            <h3>Lista de exercícios</h3>
         </div>
 
         <br>
@@ -50,19 +57,41 @@
         <details class="info">
             <summary>Exercício 01</summary>
             <p>Resolvendo problemas iniciais de configuracoes</p>
-
+            <div class="referencia">
+                <p>Antes de iniciar o desafio, assista o vídeo de referência sobre instalação do Xampp:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0Y9OZ0vc1SU?si=wTcfsJVq41Mv1m81" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <hr>
             <ul>
-                <li>Clone o repositório a seguir dentro do htdocs do apache: https://github.com/alexmpereira/challenge-level-2-exercise01</li>
-                <li>Com o MAMP ou XAMPP rodando, tente executar o projeto no navegador</li>
+                <li>Faça o download do seguinte projeto: https://github.com/alexmpereira/challenge-level-2-exercise01</li>
+                <li>Coloque o projeto baixado na pasta htdocs do Xampp</li>
+                <li>Tente executar o projeto no navegador</li>
                 <li>O Objetivo é listar no index o resultado do banco, resolvendo cada erro que encontrar.</li>
-                <li>Para publicacao da resolucao, deve-se tirar um print da listagem do index.php e colocar como resposta na entrega do desafio.</li>
             </ul>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 02</summary>
-            <p>Criar um arquivo PHP executável, ao ser chamado via terminal este arquivo, gere um arquivo excel listando os dados de um array.</p>
+            <div class="referencia">
+                <p>Antes de iniciar o desafio, leia sobre como executar um determinado arquivo PHP e elementos para geração de arquivos Excel:</p>
+                <ul>
+                    <li>
+                        <a href="https://www.php.net/manual/pt_BR/language.types.array.php" target="_blank">Arrays PHP</a>
+                    </li>
+                    <li>
+                        <a href="https://www.php.net/manual/pt_BR/features.commandline.usage.php" target="_blank">Executando PHP pelo terminal</a>
+                    </li>
+                    <li>
+                        <a href="https://www.php.net/manual/pt_BR/function.fopen.php" target="_blank">Função fopen do PHP</a>
+                    </li>
+                    <li>
+                        <a href="https://www.php.net/manual/en/function.fputcsv.php" target="_blank">Função fputcsv do PHP</a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <p>Criar um arquivo PHP executável, ao ser chamado via terminal este arquivo gere um arquivo excel listando os dados de um array.</p>
         </details>
         <br>
 
@@ -79,9 +108,19 @@
         <details class="info">
             <summary>Exercício 04</summary>
             <p>Trabalhando com sessoes do PHP:</p>
-
+            <div class="referencia">
+                <p>Antes de iniciar o desafio, leia algumas referência:</p>
+                <ul>
+                    <li>
+                        <a href="https://www.php.net/manual/pt_BR/function.session-start.php" target="_blank">Função session_start no PHP</a>
+                    </li>
+                    <li>
+                        <a href="https://www.php.net/manual/pt_BR/reserved.variables.session.php" target="_blank">Variável global da Sessão no PHP</a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
             <ul>
-                <li><strong>ATENCAO: A resposta desse desafio deverá conter o código dos dois arquivos, use o Markdown para estilizar e deixar fácil o entendimento do arquivo com as respostas.</strong></li>
                 <li>
                     Crie dois arquivos PHP:
                     <ul>
@@ -106,19 +145,14 @@
 
         <details class="info">
             <summary>Exercício 05</summary>
-            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel02-ex5</p>
-
             <ul>
-                <li>Realize o Clone do repositório em seu htdocs</li>
-                <li>Abra o repositório clonado no VsCode</li>
-                <li>O desafio: Criar um formulário HTML contendo os campos: nome, email, idade, hobbie. Ao clicar no botao de enviar o formulário envie os dados para o arquivo recupera-dados.php. Através do método POST</li>
+                <li>Criar um formulário HTML contendo os campos: nome, email, idade, hobbie. Ao clicar no botao de enviar o formulário envie os dados para o arquivo recupera-dados.php. Através do método HTTP POST</li>
                 <li>
                     No arquivo recupera-dados.php recupere esses dados vindos do formulário e crie validacoes nesses valores recebidos:
                     <ul>
                         <li>O nome precisa ter no mínimo 6 caracteres. A idade precisa ser maior que 18, caso seja menor deve lancar uma mensagem de erro.</li>
                     </ul>
                 </li>
-                <li>Realize o commit e push para o repositório. Para responder este exercicio coloque o link do seu repositório em um arquivo .md enviando na sessao de respostas conforme foi feito em outros exercicios.</li>
             </ul>
         </details>
         <br>
@@ -127,19 +161,14 @@
             <summary>Exercício 06</summary>
             <p>Crie um projeto no htdocs, dentro crie um arquivo banco-dados.php</p>
             <ul>
-                <li>Dentro desse arquivo escreva o código necessário para se conectar no banco de dados. Considere se conectar em um database chamado ex6.</li>
-                <li>Adicione o código feito no arquivo .md e envie como resposta de desafio conforme os outros exercicios.</li>
-            </ul>
+                <li>Dentro desse arquivo escreva o código necessário para se conectar no banco de dados. Considere se conectar em um database chamado ex6.</li>            </ul>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 07</summary>
-            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel02-ex7</p>
             <ul>
-                <li>Realize o Clone do repositório em seu htdocs</li>
-                <li>Abra o repositório clonado no VsCode</li>
-                <li>O objeto é criar um arquivo pesquisa.php que consulte no banco de dados uma tabela chamada pesquisa e liste em uma tabela do html os dados que contém dentro dessa tabela.</li>
+                <li>Criar um arquivo pesquisa.php que consulte no banco de dados uma tabela chamada pesquisa e liste em uma tabela do html os dados que contém dentro dessa tabela.</li>
                 <li>Os campos da tabela pode ser: regiao, descricao, status</li>
             </ul>
         </details>
@@ -153,17 +182,13 @@
 
         <details class="info">
             <summary>Exercício 09</summary>
-            <p>Descreva em um arquivo .md para que serve os comandos ls, cd e cat dentro de um terminal <strong>(CMD, POWERSHELL, BASH)</strong>.</p>
+            <p>Descreva em um arquivo .md para que serve os comandos ls, cd e cat dentro de um terminal</p>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 10</summary>
-            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel02-ex10</p>
-
             <ul>
-                <li>Realize o Clone do repositório em seu htdocs</li>
-                <li>Abra o repositório clonado no VsCode</li>
                 <li>Configure dentro do projeto o arquivo .htaccess
                     <ul>
                         <li>Esse arquivo deve mapear sempre para o arquivo index.php</li>
@@ -178,11 +203,7 @@
 
         <details class="info">
             <summary>Exercício 11</summary>
-            <p>Crie em seu github um novo repositório chamado desafio-unialfa-nivel02-ex11</p>
-
             <ul>
-                <li>Realize o Clone do repositório em seu htdocs</li>
-                <li>Abra o repositório clonado no VsCode</li>
                 <li>Configure um arquivo capaz de se conectar no banco de dados, em um database com o nome de sua preferencia.</li>
                 <li>Nessa database deve ter a tabela usuário com as colunas: nome, email, senha, descricao, idade</li>
                 <li>Crie uma página login.php com bootstrap contendo os campos email e senha.
@@ -201,29 +222,29 @@
             <summary>Exercício 12</summary>
             <p>[PHP básico] Crie uma variável que represente a idade. Crie uma variável que represente o endereço. Use o echo do PHP para imprimir a idade e o endereço com um texto complementar.</p>
 
-            <p><strong>OBS:</strong> Pode usar a função **readline()** para abrir um prompt de escritra no terminal. Nesse caso a execução do arquivo deve ser pelo terminal usando o comando <strong>php arquivo.php</strong></p>
+            OBS: Pode usar a função readline() para abrir um prompt de escritra no terminal. Nesse caso a execução do arquivo deve ser pelo terminal usando o comando: php arquivo.php</p>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 13</summary>
-            <p>[PHP básico] Crie um arquivo php chamado loops.php. Utilizando os loops do php <strong>(while e for)</strong> faça a impressão do número 1 a 15 com o <strong>echo</strong>.</p>
+            <p>[PHP básico] Crie um arquivo php chamado loops.php. Utilizando os loops do php (while e for) faça a impressão do número 1 a 15 com o echo.</p>
 
-            <p>OBS: <strong>WHILE</strong>: quando não sabemos quando o loop se encerrará. Quando é uma decisão um pouco mais complexa.
-                <strong>FOR</strong>: quando sabemos o momento de saída do loop. Normalmente, quando temos um caso de uso de variável contadora.</p>
+            <p>WHILE: Quando não sabemos quando o loop se encerrará. Quando é uma decisão um pouco mais complexa.</p>
+            <p>FOR: Quando sabemos o momento de saída do loop. Normalmente, quando temos um caso de uso de variável contadora.</p>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 14</summary>
-            <p>[PHP básico] Usando o código do exercício 13, escreva uma validação dentro do loop que pule on úmero 8.
+            <p>[PHP básico] Usando o código do exercício 13, escreva uma validação dentro do loop que pule o número 8.
                 OBS: O número 8 não pode ser impresso, ele deve ser ignorado.</p>
         </details>
         <br>
 
         <details class="info">
             <summary>Exercício 15</summary>
-            <p>[PHP básico] Escreva um loop que imprima os números de 1 a 100 apenas os impares.</p>
+            <p>[PHP básico] Escreva um loop que imprima apenas os números impares de 1 a 100.</p>
         </details>
         <br>
 
@@ -260,7 +281,7 @@
 
         <details class="info">
             <summary>Exercício 21</summary>
-            <p>[PHP básico] Crie um lista de contas correntes, contendo 4 contas bancárias. Em cada conta deve ter os seguintes dados: titular e saldo. Imprima em um echo os nomes dos titulares.</p>
+            <p>[PHP básico] Crie uma lista de contas correntes, contendo 4 contas bancárias. Em cada conta deve ter os seguintes dados: titular e saldo. Imprima em um echo os nomes dos titulares.</p>
         </details>
         <br>
     </div>
